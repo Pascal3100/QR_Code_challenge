@@ -1,0 +1,51 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  background-color: var(--Light-gray);
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+.QR-description-container {
+    width: 82%;
+    margin: auto;
+}
+
+.QR-description-title {
+    font-size: 22px;
+    font-weight:700;
+    color: var(--Dark-blue);
+}
+
+.QR-description-paragraph {
+    font-size: 15px;
+    color: var(--Grayish-blue);
+}
+
+.QR-code-img {
+    margin: 1rem;
+    border-radius: 1rem;
+    width: 18rem;
+}
+
+.QR-container {
+    margin: 10rem auto 0;
+    background-color: var(--White);
+    width: 20rem;
+    padding-bottom: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
